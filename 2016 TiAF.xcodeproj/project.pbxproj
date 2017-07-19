@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40439B643D486A51FB25B7FD /* Pods_2016_TiAF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA4C1E3A2911D4468240A41 /* Pods_2016_TiAF.framework */; };
+		61189F411F17277700847A77 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61189F401F17277700847A77 /* YTPlayerView.m */; };
+		61189F431F1727B800847A77 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 61189F421F1727B800847A77 /* Assets */; };
+		61641ACC1F130B68003AFC2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61641ACB1F130B68003AFC2C /* AppDelegate.swift */; };
+		61641ACE1F130B68003AFC2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61641ACD1F130B68003AFC2C /* ViewController.swift */; };
+		61641AD11F130B68003AFC2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61641ACF1F130B68003AFC2C /* Main.storyboard */; };
+		61641AD61F130B68003AFC2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61641AD41F130B68003AFC2C /* LaunchScreen.storyboard */; };
+		61641ADF1F131B16003AFC2C /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 61641ADE1F131AD9003AFC2C /* FontAwesome.otf */; };
+		61641AE11F131C04003AFC2C /* FontAwesomeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61641AE01F131C04003AFC2C /* FontAwesomeKit.swift */; };
+		61641AED1F131DC0003AFC2C /* Roboto 100.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AE21F131DA3003AFC2C /* Roboto 100.ttf */; };
+		61641AEE1F131DC0003AFC2C /* Roboto 100italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AE31F131DA3003AFC2C /* Roboto 100italic.ttf */; };
+		61641AEF1F131DC0003AFC2C /* Roboto 300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AE41F131DA3003AFC2C /* Roboto 300.ttf */; };
+		61641AF01F131DC0003AFC2C /* Roboto 300italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AE51F131DA3003AFC2C /* Roboto 300italic.ttf */; };
+		61641AF11F131DC0003AFC2C /* Roboto 500.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AE61F131DA3003AFC2C /* Roboto 500.ttf */; };
+		61641AF21F131DC0003AFC2C /* Roboto 500italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AE71F131DA3003AFC2C /* Roboto 500italic.ttf */; };
+		61641AF31F131DC0003AFC2C /* Roboto 700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AE81F131DA3003AFC2C /* Roboto 700.ttf */; };
+		61641AF41F131DC0003AFC2C /* Roboto 700italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AE91F131DA3003AFC2C /* Roboto 700italic.ttf */; };
+		61641AF51F131DC0003AFC2C /* Roboto 900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AEA1F131DA3003AFC2C /* Roboto 900.ttf */; };
+		61641AF61F131DC0003AFC2C /* Roboto 900italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AEB1F131DA3003AFC2C /* Roboto 900italic.ttf */; };
+		61641AF71F131DC0003AFC2C /* Roboto italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61641AEC1F131DA3003AFC2C /* Roboto italic.ttf */; };
+		61641AF91F1325F5003AFC2C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61641AF81F1325F5003AFC2C /* RoundButton.swift */; };
+		61641AFB1F13348E003AFC2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61641AFA1F13348E003AFC2C /* Assets.xcassets */; };
+		61641AFF1F134151003AFC2C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61641AFE1F134151003AFC2C /* AboutViewController.swift */; };
+		61641B021F134186003AFC2C /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61641B011F134186003AFC2C /* ContactViewController.swift */; };
+		61641B041F134197003AFC2C /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61641B031F134197003AFC2C /* TicketViewController.swift */; };
+		61641B081F1341B3003AFC2C /* SponsorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61641B071F1341B3003AFC2C /* SponsorViewController.swift */; };
+		61641B0A1F135A3A003AFC2C /* ScaleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61641B091F135A3A003AFC2C /* ScaleSegue.swift */; };
+		618DB1841F15C920005616A6 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618DB1831F15C920005616A6 /* EventViewController.swift */; };
+		618DB1871F15CD00005616A6 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618DB1851F15CD00005616A6 /* CustomTableViewCell.swift */; };
+		618DB1881F15CD00005616A6 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618DB1861F15CD00005616A6 /* CustomTableViewCell.xib */; };
+		618DB18A1F160741005616A6 /* Event2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618DB1891F160741005616A6 /* Event2ViewController.swift */; };
+		618DB18D1F160F52005616A6 /* Custom2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618DB18B1F160F52005616A6 /* Custom2TableViewCell.swift */; };
+		618DB18E1F160F52005616A6 /* Custom2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618DB18C1F160F52005616A6 /* Custom2TableViewCell.xib */; };
+		618DB1941F163E2F005616A6 /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618DB1931F163E2F005616A6 /* RankViewController.swift */; };
+		618DB19B1F16421B005616A6 /* Custom3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618DB1991F16421B005616A6 /* Custom3TableViewCell.swift */; };
+		618DB19C1F16421B005616A6 /* Custom3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618DB19A1F16421B005616A6 /* Custom3TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		068584D6E0152F0E4ACB5FC3 /* Pods-2016 TiAF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2016 TiAF.release.xcconfig"; path = "Pods/Target Support Files/Pods-2016 TiAF/Pods-2016 TiAF.release.xcconfig"; sourceTree = "<group>"; };
+		0AA4C1E3A2911D4468240A41 /* Pods_2016_TiAF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2016_TiAF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61189F3E1F17277600847A77 /* 2016 TiAF-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2016 TiAF-Bridging-Header.h"; sourceTree = "<group>"; };
+		61189F3F1F17277700847A77 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		61189F401F17277700847A77 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		61189F421F1727B800847A77 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		61641ACB1F130B68003AFC2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61641ACD1F130B68003AFC2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61641AD01F130B68003AFC2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61641AD51F130B68003AFC2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61641AD71F130B68003AFC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61641ADE1F131AD9003AFC2C /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		61641AE01F131C04003AFC2C /* FontAwesomeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeKit.swift; sourceTree = "<group>"; };
+		61641AE21F131DA3003AFC2C /* Roboto 100.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto 100.ttf"; sourceTree = "<group>"; };
+		61641AE31F131DA3003AFC2C /* Roboto 100italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto 100italic.ttf"; sourceTree = "<group>"; };
+		61641AE41F131DA3003AFC2C /* Roboto 300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto 300.ttf"; sourceTree = "<group>"; };
+		61641AE51F131DA3003AFC2C /* Roboto 300italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto 300italic.ttf"; sourceTree = "<group>"; };
+		61641AE61F131DA3003AFC2C /* Roboto 500.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto 500.ttf"; sourceTree = "<group>"; };
+		61641AE71F131DA3003AFC2C /* Roboto 500italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto 500italic.ttf"; sourceTree = "<group>"; };
+		61641AE81F131DA3003AFC2C /* Roboto 700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto 700.ttf"; sourceTree = "<group>"; };
+		61641AE91F131DA3003AFC2C /* Roboto 700italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto 700italic.ttf"; sourceTree = "<group>"; };
+		61641AEA1F131DA3003AFC2C /* Roboto 900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto 900.ttf"; sourceTree = "<group>"; };
+		61641AEB1F131DA3003AFC2C /* Roboto 900italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto 900italic.ttf"; sourceTree = "<group>"; };
+		61641AEC1F131DA3003AFC2C /* Roboto italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto italic.ttf"; sourceTree = "<group>"; };
+		61641AF81F1325F5003AFC2C /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		61641AFA1F13348E003AFC2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61641AFE1F134151003AFC2C /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		61641B011F134186003AFC2C /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		61641B031F134197003AFC2C /* TicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		61641B071F1341B3003AFC2C /* SponsorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorViewController.swift; sourceTree = "<group>"; };
+		61641B091F135A3A003AFC2C /* ScaleSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleSegue.swift; sourceTree = "<group>"; };
+		618DB17E1F15C32B005616A6 /* 2016 TiAF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2016 TiAF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		618DB1831F15C920005616A6 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		618DB1851F15CD00005616A6 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		618DB1861F15CD00005616A6 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		618DB1891F160741005616A6 /* Event2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event2ViewController.swift; sourceTree = "<group>"; };
+		618DB18B1F160F52005616A6 /* Custom2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom2TableViewCell.swift; sourceTree = "<group>"; };
+		618DB18C1F160F52005616A6 /* Custom2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Custom2TableViewCell.xib; sourceTree = "<group>"; };
+		618DB1931F163E2F005616A6 /* RankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		618DB1991F16421B005616A6 /* Custom3TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom3TableViewCell.swift; sourceTree = "<group>"; };
+		618DB19A1F16421B005616A6 /* Custom3TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Custom3TableViewCell.xib; sourceTree = "<group>"; };
+		74174047A864831F0BA36CAF /* Pods-2016 TiAF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2016 TiAF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2016 TiAF/Pods-2016 TiAF.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61641AC51F130B68003AFC2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40439B643D486A51FB25B7FD /* Pods_2016_TiAF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F93AAEC1E8491A7D67B7F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AA4C1E3A2911D4468240A41 /* Pods_2016_TiAF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61641ABF1F130B68003AFC2C = {
+			isa = PBXGroup;
+			children = (
+				61641ACA1F130B68003AFC2C /* 2016 TiAF */,
+				EAABA098A04F4A71A71C6BA7 /* Pods */,
+				0F93AAEC1E8491A7D67B7F5D /* Frameworks */,
+				618DB17E1F15C32B005616A6 /* 2016 TiAF.app */,
+			);
+			sourceTree = "<group>";
+		};
+		61641ACA1F130B68003AFC2C /* 2016 TiAF */ = {
+			isa = PBXGroup;
+			children = (
+				61641ADD1F131ABF003AFC2C /* fonts */,
+				61189F421F1727B800847A77 /* Assets */,
+				61189F3F1F17277700847A77 /* YTPlayerView.h */,
+				61189F401F17277700847A77 /* YTPlayerView.m */,
+				61189F3E1F17277600847A77 /* 2016 TiAF-Bridging-Header.h */,
+				61641ACB1F130B68003AFC2C /* AppDelegate.swift */,
+				61641ACD1F130B68003AFC2C /* ViewController.swift */,
+				61641ACF1F130B68003AFC2C /* Main.storyboard */,
+				61641AD41F130B68003AFC2C /* LaunchScreen.storyboard */,
+				61641AD71F130B68003AFC2C /* Info.plist */,
+				61641AE01F131C04003AFC2C /* FontAwesomeKit.swift */,
+				61641AF81F1325F5003AFC2C /* RoundButton.swift */,
+				61641AFA1F13348E003AFC2C /* Assets.xcassets */,
+				61641AFE1F134151003AFC2C /* AboutViewController.swift */,
+				61641B011F134186003AFC2C /* ContactViewController.swift */,
+				61641B031F134197003AFC2C /* TicketViewController.swift */,
+				61641B071F1341B3003AFC2C /* SponsorViewController.swift */,
+				61641B091F135A3A003AFC2C /* ScaleSegue.swift */,
+				618DB1831F15C920005616A6 /* EventViewController.swift */,
+				618DB1891F160741005616A6 /* Event2ViewController.swift */,
+				618DB1851F15CD00005616A6 /* CustomTableViewCell.swift */,
+				618DB1861F15CD00005616A6 /* CustomTableViewCell.xib */,
+				618DB18B1F160F52005616A6 /* Custom2TableViewCell.swift */,
+				618DB18C1F160F52005616A6 /* Custom2TableViewCell.xib */,
+				618DB1931F163E2F005616A6 /* RankViewController.swift */,
+				618DB1991F16421B005616A6 /* Custom3TableViewCell.swift */,
+				618DB19A1F16421B005616A6 /* Custom3TableViewCell.xib */,
+			);
+			path = "2016 TiAF";
+			sourceTree = "<group>";
+		};
+		61641ADD1F131ABF003AFC2C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				61641AE21F131DA3003AFC2C /* Roboto 100.ttf */,
+				61641AE31F131DA3003AFC2C /* Roboto 100italic.ttf */,
+				61641AE41F131DA3003AFC2C /* Roboto 300.ttf */,
+				61641AE51F131DA3003AFC2C /* Roboto 300italic.ttf */,
+				61641AE61F131DA3003AFC2C /* Roboto 500.ttf */,
+				61641AE71F131DA3003AFC2C /* Roboto 500italic.ttf */,
+				61641AE81F131DA3003AFC2C /* Roboto 700.ttf */,
+				61641AE91F131DA3003AFC2C /* Roboto 700italic.ttf */,
+				61641AEA1F131DA3003AFC2C /* Roboto 900.ttf */,
+				61641AEB1F131DA3003AFC2C /* Roboto 900italic.ttf */,
+				61641AEC1F131DA3003AFC2C /* Roboto italic.ttf */,
+				61641ADE1F131AD9003AFC2C /* FontAwesome.otf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		EAABA098A04F4A71A71C6BA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74174047A864831F0BA36CAF /* Pods-2016 TiAF.debug.xcconfig */,
+				068584D6E0152F0E4ACB5FC3 /* Pods-2016 TiAF.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61641AC71F130B68003AFC2C /* 2016 TiAF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61641ADA1F130B68003AFC2C /* Build configuration list for PBXNativeTarget "2016 TiAF" */;
+			buildPhases = (
+				A750FA5DA52B78D1C3F74096 /* [CP] Check Pods Manifest.lock */,
+				61641AC41F130B68003AFC2C /* Sources */,
+				61641AC51F130B68003AFC2C /* Frameworks */,
+				61641AC61F130B68003AFC2C /* Resources */,
+				3C3014886784A7FC8D3DC0AA /* [CP] Embed Pods Frameworks */,
+				E60373418CD782D0BFC72DD7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2016 TiAF";
+			productName = "2016 TiAF";
+			productReference = 618DB17E1F15C32B005616A6 /* 2016 TiAF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61641AC01F130B68003AFC2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pei Yun";
+				TargetAttributes = {
+					61641AC71F130B68003AFC2C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S62M5FFEJA;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 61641AC31F130B68003AFC2C /* Build configuration list for PBXProject "2016 TiAF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61641ABF1F130B68003AFC2C;
+			productRefGroup = 61641ABF1F130B68003AFC2C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61641AC71F130B68003AFC2C /* 2016 TiAF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61641AC61F130B68003AFC2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61641AED1F131DC0003AFC2C /* Roboto 100.ttf in Resources */,
+				61641AEE1F131DC0003AFC2C /* Roboto 100italic.ttf in Resources */,
+				61641AEF1F131DC0003AFC2C /* Roboto 300.ttf in Resources */,
+				61189F431F1727B800847A77 /* Assets in Resources */,
+				61641AF01F131DC0003AFC2C /* Roboto 300italic.ttf in Resources */,
+				61641AFB1F13348E003AFC2C /* Assets.xcassets in Resources */,
+				61641AF11F131DC0003AFC2C /* Roboto 500.ttf in Resources */,
+				618DB1881F15CD00005616A6 /* CustomTableViewCell.xib in Resources */,
+				618DB18E1F160F52005616A6 /* Custom2TableViewCell.xib in Resources */,
+				61641AF21F131DC0003AFC2C /* Roboto 500italic.ttf in Resources */,
+				61641AF31F131DC0003AFC2C /* Roboto 700.ttf in Resources */,
+				618DB19C1F16421B005616A6 /* Custom3TableViewCell.xib in Resources */,
+				61641AF41F131DC0003AFC2C /* Roboto 700italic.ttf in Resources */,
+				61641AF51F131DC0003AFC2C /* Roboto 900.ttf in Resources */,
+				61641AF61F131DC0003AFC2C /* Roboto 900italic.ttf in Resources */,
+				61641AF71F131DC0003AFC2C /* Roboto italic.ttf in Resources */,
+				61641ADF1F131B16003AFC2C /* FontAwesome.otf in Resources */,
+				61641AD61F130B68003AFC2C /* LaunchScreen.storyboard in Resources */,
+				61641AD11F130B68003AFC2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C3014886784A7FC8D3DC0AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2016 TiAF/Pods-2016 TiAF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A750FA5DA52B78D1C3F74096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E60373418CD782D0BFC72DD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2016 TiAF/Pods-2016 TiAF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61641AC41F130B68003AFC2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61641B041F134197003AFC2C /* TicketViewController.swift in Sources */,
+				618DB18A1F160741005616A6 /* Event2ViewController.swift in Sources */,
+				618DB1941F163E2F005616A6 /* RankViewController.swift in Sources */,
+				618DB19B1F16421B005616A6 /* Custom3TableViewCell.swift in Sources */,
+				618DB1841F15C920005616A6 /* EventViewController.swift in Sources */,
+				61641AFF1F134151003AFC2C /* AboutViewController.swift in Sources */,
+				618DB18D1F160F52005616A6 /* Custom2TableViewCell.swift in Sources */,
+				61641B081F1341B3003AFC2C /* SponsorViewController.swift in Sources */,
+				61641B021F134186003AFC2C /* ContactViewController.swift in Sources */,
+				618DB1871F15CD00005616A6 /* CustomTableViewCell.swift in Sources */,
+				61641AF91F1325F5003AFC2C /* RoundButton.swift in Sources */,
+				61641ACE1F130B68003AFC2C /* ViewController.swift in Sources */,
+				61641B0A1F135A3A003AFC2C /* ScaleSegue.swift in Sources */,
+				61641AE11F131C04003AFC2C /* FontAwesomeKit.swift in Sources */,
+				61189F411F17277700847A77 /* YTPlayerView.m in Sources */,
+				61641ACC1F130B68003AFC2C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61641ACF1F130B68003AFC2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61641AD01F130B68003AFC2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61641AD41F130B68003AFC2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61641AD51F130B68003AFC2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61641AD81F130B68003AFC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61641AD91F130B68003AFC2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61641ADB1F130B68003AFC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74174047A864831F0BA36CAF /* Pods-2016 TiAF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S62M5FFEJA;
+				INFOPLIST_FILE = "2016 TiAF/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peiyuntang.-016-TiAF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "2016 TiAF/2016 TiAF-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		61641ADC1F130B68003AFC2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068584D6E0152F0E4ACB5FC3 /* Pods-2016 TiAF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S62M5FFEJA;
+				INFOPLIST_FILE = "2016 TiAF/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peiyuntang.-016-TiAF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "2016 TiAF/2016 TiAF-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61641AC31F130B68003AFC2C /* Build configuration list for PBXProject "2016 TiAF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61641AD81F130B68003AFC2C /* Debug */,
+				61641AD91F130B68003AFC2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61641ADA1F130B68003AFC2C /* Build configuration list for PBXNativeTarget "2016 TiAF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61641ADB1F130B68003AFC2C /* Debug */,
+				61641ADC1F130B68003AFC2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61641AC01F130B68003AFC2C /* Project object */;
+}
